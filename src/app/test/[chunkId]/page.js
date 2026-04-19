@@ -1,13 +1,14 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { addResult } from '@/lib/store';
 import { ArrowLeft, Loader2, PlayCircle, CheckCircle2, XCircle } from 'lucide-react';
 import Link from 'next/link';
 
-export default function TestEngine({ params }) {
-  const router = useRouter();
-  const chunkId = params.chunkId;
+export default function TestEngine() {
+  const params = useParams();
+  const chunkIdParam = params?.chunkId;
+  const chunkId = Array.isArray(chunkIdParam) ? chunkIdParam[0] : chunkIdParam;
   
   const [chunkData, setChunkData] = useState(null);
   const [questions, setQuestions] = useState([]);
@@ -21,14 +22,27 @@ export default function TestEngine({ params }) {
   const [revealed, setRevealed] = useState(false);
   
   useEffect(() => {
+    if (!chunkId) return;
+
+    let active = true;
+    setError('');
+
     // Fetch directly from Vercel's static public Edge instead of fighting Webpack dynamic bundle behavior
-    fetch(`/data/chunks/${chunkId}.json`)
+    fetch(`/data/chunks/${encodeURIComponent(chunkId)}.json`)
       .then(res => {
         if (!res.ok) throw new Error('File not found');
         return res.json();
       })
-      .then(data => setChunkData(data))
-      .catch(err => setError('Failed to load topic data. Refresh the page or go back.'));
+      .then(data => {
+        if (active) setChunkData(data);
+      })
+      .catch(() => {
+        if (active) setError('Failed to load topic data. Refresh the page or go back.');
+      });
+
+    return () => {
+      active = false;
+    };
   }, [chunkId]);
 
   const generate = async () => {
