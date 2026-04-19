@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
+export const maxDuration = 60; // Max allowed on Vercel free tier
+
 export async function POST(request) {
   try {
     const { chunkData, config } = await request.json();
