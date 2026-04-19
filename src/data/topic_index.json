@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "subject": "Corporate Law II",
+    "institution": "National Law School of India University, Bengaluru",
+    "total_chunks": 27,
+    "topic_names": [
+      "IBC",
+      "Competition Law",
+      "FEMA & Foreign Investment",
+      "Companies Act"
+    ]
+  },
+  "topic_sequence": [
+    {
+      "id": "ibc_1",
+      "order": 1,
+      "topic": "IBC",
+      "title": "Introduction to Insolvency Law",
+      "sessions_covered": [
+        "Introduction to IBC"
+      ],
+      "session_numbers": [
+        1
+      ],
+      "cases": [
+        "Introduction to IBC \nMadhusudan Godhandas v Madhu Woollen Industries",
+        "Fertilizer Corp of India Ltd v Coromandal Sacks Private Limited",
+        "Innoventive Industries v ICICI Bank"
+      ],
+      "approx_tokens": 3808
+    },
+    {
+      "id": "ibc_2",
+      "order": 2,
+      "topic": "IBC",
+      "title": "Initiating CIRP & Default vs. Dispute",
+      "sessions_covered": [
+        "Initiation of Corporate Insolvency Resolution Process [§§6,7,8,9 and 10]",
+        "Concept of ‘default’ and ‘existence of a dispute’"
+      ],
+      "session_numbers": [
+        2,
+        3
+      ],
+      "cases": [
+        "Swiss Ribbons v Union of India",
+        "Vidharbha Industries v Axis Bank",
+        "Suresh Kumar Reddy v. Canara Bank",
+        "Capital Limited v Sach Marketing",
+        "Mobilox Innovations Private Limited v Kirusa Software Private Limited",
+        "Macquarie Bank Limited v Shilpi Cable Technologies Limited",
+        "Rajratan Agarwal v Solartex India Private Limited"
+      ],
+      "approx_tokens": 6926
+    },
+    {
+      "id": "ibc_3",
+      "order": 3,
+      "topic": "IBC",
+      "title": "The CIRP Process",
+      "sessions_covered": [
+        "CIRP Process"
+      ],
+      "session_numbers": [
+        4
+      ],
+      "cases": [
+        "CIRP Process \nGujarat Urja Vikas Nigam Limited v Amit Gupta",
+        "Arcelormittal India Private Limited v Satish Kumar Gupta",
+        "Consolidated Construction Consortium v Hitro Energy Solutions Private Limited"
+      ],
+      "approx_tokens": 3946
+    },
+    {
+      "id": "ibc_4",
+      "order": 4,
+      "topic": "IBC",
+      "title": "Moratorium & Commencement",
+      "sessions_covered": [
+        "Commencement of CIRP"
+      ],
+      "session_numbers": [
+        5
+      ],
+      "cases": [
+        "Sashidhar v. Indian Overseas Bank",
+        "Swiss Ribbons v. UOI",
+        "Karad Urban v Swwapnil",
+        "Sashidhar v. Indian Overseas Bank",
+        "Arun Kumar Jagatramka v Jindal Steel and Power Limited"
+      ],
+      "approx_tokens": 5139
+    },
+    {
+      "id": "ibc_5",
+      "order": 5,
+      "topic": "IBC",
+      "title": "Resolution Plans",
+      "sessions_covered": [
+        "Formulation and finalization of resolution plan [§§30, 31]"
+      ],
+      "session_numbers": [
+        6
+      ],
+      "cases": [
+        "Kalpraj v Kotak Investment Advisors Ltd",
+        "Binani Industries Ltd v Bank of Baroda",
+        "Kalyani Transco v Bhushan Power",
+        "Ghanashyam Mishra v Edelweiss Asset"
+      ],
+      "approx_tokens": 5255
+    },
+    {
+      "id": "ibc_6",
+      "order": 6,
+      "topic": "IBC",
+      "title": "Withdrawal from CIRP",
+      "sessions_covered": [
+        "Withdrawal of resolution plan [§12A I&BC 2016; Regulation 30A and  Regulation 36-B(4-A) of the"
+      ],
+      "session_numbers": [
+        7
+      ],
+      "cases": [
+        "Vallal RCK v Siva Industries",
+        "Swiss Ribbons v. Union of India",
+        "Ebix Singapore Private Limited v Committee of Creditors",
+        "State Bank of India v The Consortium",
+        "Indian Overseas Bank and Essar Steel v. Satish Kumar Gupta"
+      ],
+      "approx_tokens": 4942
+    },
+    {
+      "id": "ibc_7",
+      "order": 7,
+      "topic": "IBC",
+      "title": "Preferential & Undervalued Transactions",
+      "sessions_covered": [
+        "PUEF Transactions"
+      ],
+      "session_numbers": [
+        8
+      ],
+      "cases": [
+        "Fraudulent \nNo limit \nRP only \nIntent to defraud creditors \n \nLakshmanaswami Mudaliar v LIC"
+      ],
+      "approx_tokens": 2742
+    },
+    {
+      "id": "ibc_8",
+      "order": 8,
+      "topic": "IBC",
+      "title": "Personal Guarantors & Workmen's Dues",
+      "sessions_covered": [
+        "Personal guarantors, surety and workmen dues"
+      ],
+      "session_numbers": [
+        9
+      ],
+      "cases": [
+        "Lalit Kumar v Union of India",
+        "Dilip Jiwrajka v Union of India",
+        "BRS Ventures Investments Limited v SREI Infrastructure Finance Limited"
+      ],
+      "approx_tokens": 5366
+    },
+    {
+      "id": "ibc_9",
+      "order": 9,
+      "topic": "IBC",
+      "title": "Cross-Border Insolvency & Emerging Issues",
+      "sessions_covered": [
+        "Emerging issues in corporate insolvency law"
+      ],
+      "session_numbers": [
+        10
+      ],
+      "cases": [
+        "Emerging issues in corporate insolvency law \nSTO v Rainbow Papers",
+        "Ebix v Educomp",
+        "Paschimanchal Vidyut v Raman  Ispat",
+        "Sanjay Kumar Agarwal v STO"
+      ],
+      "approx_tokens": 3843
+    },
+    {
+      "id": "competition_law_10",
+      "order": 10,
+      "topic": "Competition Law",
+      "title": "Fundamentals of Competition Law",
+      "sessions_covered": [
+        "Competition Law – Fundamentals"
+      ],
+      "session_numbers": [
+        1
+      ],
+      "cases": [
+        "CCI v State of Mizoram",
+        "Beach Mineral Producers Association v Government of India",
+        "Travel Agents Association of India  v CCI"
+      ],
+      "approx_tokens": 5400
+    },
+    {
+      "id": "competition_law_11",
+      "order": 11,
+      "topic": "Competition Law",
+      "title": "Anti-Competitive Agreements",
+      "sessions_covered": [
+        "Anti Competitive Agreements"
+      ],
+      "session_numbers": [
+        2
+      ],
+      "cases": [
+        "CCI v Kerala Film Exhibitors",
+        "Himmatlal v CCI"
+      ],
+      "approx_tokens": 5855
+    },
+    {
+      "id": "competition_law_12",
+      "order": 12,
+      "topic": "Competition Law",
+      "title": "Cartels & Leniency",
+      "sessions_covered": [
+        "Cartels and leniency [§2(c); §46 and Lesser Penalty Regulations]"
+      ],
+      "session_numbers": [
+        3
+      ],
+      "cases": [
+        "Samir Agrawal v CCI",
+        "Ceat Ltd v CCI",
+        "Rajasthan Cylinders v. CCI"
+      ],
+      "approx_tokens": 6725
+    },
+    {
+      "id": "competition_law_13",
+      "order": 13,
+      "topic": "Competition Law",
+      "title": "Vertical Agreements & RPM",
+      "sessions_covered": [
+        "Non-horizontal agreements and latest developments"
+      ],
+      "session_numbers": [
+        4
+      ],
+      "cases": [
+        "PF Digital Media Services Limited v UFO Moviez India Limited",
+        "Shamsher Kataria v Honda"
+      ],
+      "approx_tokens": 8807
+    },
+    {
+      "id": "competition_law_14",
+      "order": 14,
+      "topic": "Competition Law",
+      "title": "Abuse of Dominance — Principles",
+      "sessions_covered": [
+        "Abuse of dominant position [§§4, 21, 27 and 28 of the Competition Act]"
+      ],
+      "session_numbers": [
+        5
+      ],
+      "cases": [
+        "Coal India v CCI"
+      ],
+      "approx_tokens": 7183
+    },
+    {
+      "id": "competition_law_15",
+      "order": 15,
+      "topic": "Competition Law",
+      "title": "Abuse of Dominance — Market Definition",
+      "sessions_covered": [
+        "Abuse of dominant position [§§2(r), 2(s), 2(t), 19(4), 19(5), 19 (6) and  19(7) of the"
+      ],
+      "session_numbers": [
+        6
+      ],
+      "cases": [
+        "CCI v Schott Glass",
+        "Google v Payment Aggregator",
+        "MCX v National Stock Exchange"
+      ],
+      "approx_tokens": 8342
+    },
+    {
+      "id": "competition_law_16",
+      "order": 16,
+      "topic": "Competition Law",
+      "title": "Merger Control — Thresholds & Review",
+      "sessions_covered": [
+        "Merger review [§§5, 6 and 20(4) and 31(1) of the Competition Act  2002; Item # 2, Schedule 1"
+      ],
+      "session_numbers": [
+        7
+      ],
+      "cases": [
+        "CCI v. Thomas Cook"
+      ],
+      "approx_tokens": 9281
+    },
+    {
+      "id": "competition_law_17",
+      "order": 17,
+      "topic": "Competition Law",
+      "title": "Merger Control — Penalties & Procedures",
+      "sessions_covered": [
+        "Merger review continued [§§ 43A, 44 and 45 of the Competition Act  2002; Combination"
+      ],
+      "session_numbers": [
+        8
+      ],
+      "cases": [
+        "SCM Solifert v CCI"
+      ],
+      "approx_tokens": 2236
+    },
+    {
+      "id": "competition_law_18",
+      "order": 18,
+      "topic": "Competition Law",
+      "title": "Digital Markets & Emerging Issues",
+      "sessions_covered": [
+        "Emerging Issues"
+      ],
+      "session_numbers": [
+        9
+      ],
+      "cases": [
+        "Emerging Issues \n \nSwapan Dey v Union of India",
+        "Monsanto Holdings Private Limited v  CCI",
+        "Telefonaktiebolaget LM Ericsson v CCI"
+      ],
+      "approx_tokens": 9100
+    },
+    {
+      "id": "competition_law_19",
+      "order": 19,
+      "topic": "Competition Law",
+      "title": "Competition vs. Sectoral Regulators",
+      "sessions_covered": [
+        "Interface between competition and other regulatory enactments and  emerging issues"
+      ],
+      "session_numbers": [
+        10
+      ],
+      "cases": [
+        "Interface between competition and other regulatory enactments and  emerging issues \nIndependent Sugar Corporation v. Girish Juneja",
+        "Kshitiz Arya v. Google",
+        "Bharti Airtel Limited v. Competition Commission of India"
+      ],
+      "approx_tokens": 6040
+    },
+    {
+      "id": "fema_and_foreign_investment_20",
+      "order": 20,
+      "topic": "FEMA & Foreign Investment",
+      "title": "FEMA Fundamentals",
+      "sessions_covered": [
+        "Fundamentals"
+      ],
+      "session_numbers": [
+        1
+      ],
+      "cases": [
+        "Fundamentals \n \nArjun Patil v. Union of India",
+        "Internet and Mobile Association of India v Reserve Bank of India"
+      ],
+      "approx_tokens": 4586
+    },
+    {
+      "id": "fema_and_foreign_investment_21",
+      "order": 21,
+      "topic": "FEMA & Foreign Investment",
+      "title": "Capital & Current Account Transactions",
+      "sessions_covered": [
+        "Fundamentals"
+      ],
+      "session_numbers": [
+        2
+      ],
+      "cases": [
+        "Patel v. Reserve Bank of India",
+        "Vishal Tiwari v. Union of India"
+      ],
+      "approx_tokens": 4736
+    },
+    {
+      "id": "fema_and_foreign_investment_22",
+      "order": 22,
+      "topic": "FEMA & Foreign Investment",
+      "title": "Compounding of Contraventions",
+      "sessions_covered": [
+        "Compounding of Offences"
+      ],
+      "session_numbers": [
+        3
+      ],
+      "cases": [
+        "Noy Vallesina Engineering Spa vs. Jindal Drugs Limited"
+      ],
+      "approx_tokens": 4128
+    },
+    {
+      "id": "fema_and_foreign_investment_23",
+      "order": 23,
+      "topic": "FEMA & Foreign Investment",
+      "title": "Cross-Border Guarantees",
+      "sessions_covered": [
+        "FEM Guarantee Regulations 2000"
+      ],
+      "session_numbers": [
+        4
+      ],
+      "cases": [
+        "Videocon Industries Limited v Intesa Sanpaolo",
+        "POL India Projects Limited v Aurelia Reederei GmbH"
+      ],
+      "approx_tokens": 3125
+    },
+    {
+      "id": "fema_and_foreign_investment_24",
+      "order": 24,
+      "topic": "FEMA & Foreign Investment",
+      "title": "Enforcement of Arbitral Awards",
+      "sessions_covered": [
+        "Enforcement of Arbitral Awards"
+      ],
+      "session_numbers": [
+        5
+      ],
+      "cases": [
+        "Enforcement of Arbitral Awards \n \nShivhare v. ED"
+      ],
+      "approx_tokens": 4378
+    },
+    {
+      "id": "fema_and_foreign_investment_25",
+      "order": 25,
+      "topic": "FEMA & Foreign Investment",
+      "title": "NDI Rules & FDI Framework",
+      "sessions_covered": [
+        "Dropti Devi v Union of India [2016 | SC |  2 J]"
+      ],
+      "session_numbers": [
+        6
+      ],
+      "cases": [
+        "Dropti Devi v Union of India",
+        "Vijay Karia v Prysmian",
+        "Docomo v Tata",
+        "Vijay Karia v. Prysmian",
+        "Gemini Bay Transcription v. Integrated Sales Service",
+        "LMJ International v. Sleepwell Industries",
+        "Vijay Karia v. Prysmian",
+        "IDBI Trusteeship Services Limited v Hubtown Limited",
+        "Suborno Bose v. Enforcement Directorate",
+        "Swarup v ED"
+      ],
+      "approx_tokens": 11475
+    },
+    {
+      "id": "companies_act_26",
+      "order": 26,
+      "topic": "Companies Act",
+      "title": "Oppression & Mismanagement",
+      "sessions_covered": [
+        "Interplay with company law"
+      ],
+      "session_numbers": [
+        9
+      ],
+      "cases": [
+        "Ltd v Needle Industries Newey",
+        "LIC of India v Escorts Ltd",
+        "Sunil Kumar Jain v. Sundaresh Bhatt"
+      ],
+      "approx_tokens": 10030
+    },
+    {
+      "id": "companies_act_27",
+      "order": 27,
+      "topic": "Companies Act",
+      "title": "Oppression & Mismanagement",
+      "sessions_covered": [
+        "Interplay with company law"
+      ],
+      "session_numbers": [
+        9
+      ],
+      "cases": [
+        "Ltd v Needle Industries Newey",
+        "LIC of India v Escorts Ltd"
+      ],
+      "approx_tokens": 3195
+    }
+  ]
+}
