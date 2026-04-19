@@ -49,25 +49,35 @@ export default function TestEngine() {
     if (!chunkData) return;
     setLoading(true);
     setError('');
-    
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 90000);
+
     try {
       const res = await fetch('/api/generate-mcq', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ chunkData, config })
+        body: JSON.stringify({ chunkData, config }),
+        signal: controller.signal,
       });
+      clearTimeout(timeoutId);
       const data = await res.json();
-      
+
       if (!res.ok) throw new Error(data.error || 'Failed to generate questions');
-      
+
       setQuestions(data.questions);
       setMode('run');
       setQIdx(0);
       setAnswers({});
       setRevealed(false);
     } catch (err) {
+      clearTimeout(timeoutId);
       console.error(err);
-      setError('Generation failed. Ensure Vercel GEMINI_API_KEY is configured correctly: ' + err.message);
+      if (err.name === 'AbortError') {
+        setError('Request timed out after 90 seconds. Check your Vercel function logs or try again.');
+      } else {
+        setError('Generation failed: ' + err.message);
+      }
     } finally {
       setLoading(false);
     }
