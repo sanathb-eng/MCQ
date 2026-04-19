@@ -21,10 +21,14 @@ export default function TestEngine({ params }) {
   const [revealed, setRevealed] = useState(false);
   
   useEffect(() => {
-    // Dynamic import to let Webpack correctly bundle the chunk data without Node fs
-    import(`@/data/chunks/${chunkId}.json`)
-      .then(mod => setChunkData(mod.default))
-      .catch(err => setError('Failed to load topic data.'));
+    // Fetch directly from Vercel's static public Edge instead of fighting Webpack dynamic bundle behavior
+    fetch(`/data/chunks/${chunkId}.json`)
+      .then(res => {
+        if (!res.ok) throw new Error('File not found');
+        return res.json();
+      })
+      .then(data => setChunkData(data))
+      .catch(err => setError('Failed to load topic data. Refresh the page or go back.'));
   }, [chunkId]);
 
   const generate = async () => {
@@ -70,7 +74,8 @@ export default function TestEngine({ params }) {
     setMode('done');
   };
 
-  if (!chunkData) return <div className="container" style={{marginTop:'2rem',textAlign:'center',color:'var(--muted)'}}><Loader2 className="spin" size={24} style={{display:'inline',marginRight:'8px'}}/> Loading...</div>;
+  if (error && !chunkData) return <div className="container" style={{marginTop:'2rem',textAlign:'center',color:'var(--err)'}}>{error}</div>;
+  if (!chunkData) return <div className="container" style={{marginTop:'2rem',textAlign:'center',color:'var(--muted)'}}><Loader2 className="spin" size={24} style={{display:'inline',marginRight:'8px'}}/> Loading topic...</div>;
 
   return (
     <div className="container anim" style={{ marginTop: '1rem' }}>
