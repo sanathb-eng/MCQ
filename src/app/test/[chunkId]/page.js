@@ -1,14 +1,13 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { addResult } from '@/lib/store';
 import { ArrowLeft, Loader2, PlayCircle, CheckCircle2, XCircle } from 'lucide-react';
 import Link from 'next/link';
 
 export default function TestEngine() {
-  const params = useParams();
-  const chunkIdParam = params?.chunkId;
-  const chunkId = Array.isArray(chunkIdParam) ? chunkIdParam[0] : chunkIdParam;
+  const pathname = usePathname();
+  const chunkId = pathname?.split('/').filter(Boolean).pop() || '';
   
   const [chunkData, setChunkData] = useState(null);
   const [questions, setQuestions] = useState([]);
